@@ -1,0 +1,21 @@
+Favicon Generator
+
+Font Awesome Icon Using
+
+External CSS File Load
+
+Basic Slider by CSS Animation Property
+
+External Font Loading:
+
+@font-face {
+    font-family: 'Font Name';
+    src: url("font-file-url");
+}
+
+Example:
+@font-face {
+    font-family: 'Dapifer Black';
+    src: url("../fonts/Dapifer-Black.woff");
+}
+

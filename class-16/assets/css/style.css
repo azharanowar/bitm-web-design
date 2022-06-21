@@ -1,0 +1,10 @@
+#employee_table {
+    border-collapse: collapse;
+}
+
+#employee_table tr {
+    height: 30px;
+}
+#employee_table tr td {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+Javascript:
+
+Javascript History.
+
+What is javascript.
+
+Why javascript.
+
+How to use javascript.
+
+Javascript basic syntax.
+
+Print Hello World:
+document.write('Hello World!');
+
+Showing alert with a message:
+alert('Hello World!');
+
+Printing something for temporary in console:
+console.log("Hello");
+
+Printing html tag by javascript:
+document.write("<h1>Hello Bangladesh!</h1>");

@@ -1,0 +1,7 @@
+Responsive,
+Media Query
+@media screen and (min-width: 750px) (min-width: 500px) {
+
+}
+
+Display Block

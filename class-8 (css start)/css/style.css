@@ -1,0 +1,123 @@
+
+* { box-sizing: border-box; }
+
+body, ul, li {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75% }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[class *= 'col-'] {
+    float: left;
+    border: 1px solid gray;
+}
+
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.raw:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.header-top { height: 40px; }
+.header-bottom { height: 250px; }
+.menu { height: 50px; }
+.content { height: 650px; }
+.big-footer { height: 300px; }
+.footer { height: 40px }
+
+ul { list-style: none; }
+
+ul li {
+    float: left;
+    width: 20% !important;
+    border: 1px solid gray;
+    /*margin-right: 20px !important;*/
+}
+
+ul li a {
+    display: block;
+    height: 46px;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Devices... */
+@media screen and (max-width: 500px) {
+    [class *= 'col-'] {
+        width: 100%;
+    }
+}
+
+/* Tablet Devices, Here in class t means tablet... */
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .col-t1 { width: 8.33%; }
+    .col-t2 { width: 16.66%; }
+    .col-t3 { width: 25%; }
+    .col-t4 { width: 33.33%; }
+    .col-t5 { width: 41.66%; }
+    .col-t6 { width: 50%; }
+    .col-t7 { width: 58.33%; }
+    .col-t8 { width: 66.66%; }
+    .col-t9 { width: 75% }
+    .col-t10 { width: 83.33%; }
+    .col-t11 { width: 91.66%; }
+    .col-t12 { width: 100%; }
+}
+
+/* Laptop Devices, Here in class l means laptop... */
+@media screen and (min-width: 701px) and (max-width: 950px) {
+    .col-l1 { width: 8.33%; }
+    .col-l2 { width: 16.66%; }
+    .col-l3 { width: 25%; }
+    .col-l4 { width: 33.33%; }
+    .col-l5 { width: 41.66%; }
+    .col-l6 { width: 50%; }
+    .col-l7 { width: 58.33%; }
+    .col-l8 { width: 66.66%; }
+    .col-l9 { width: 75% }
+    .col-l10 { width: 83.33%; }
+    .col-l11 { width: 91.66%; }
+    .col-l12 { width: 100%; }
+}
+
+/*@media screen and (min-width: 500px) and (max-width: 800px) {*/
+/*    .test-2 {*/
+/*        background-color: red;*/
+/*    }*/
+/*}*/

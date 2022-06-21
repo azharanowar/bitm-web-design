@@ -1,0 +1,84 @@
+// ARRAY:
+
+    Array in Javascript Type-1:
+
+        var data = Array();
+        data[0] = 10;
+        data[1] = 20;
+        data[2] = 30;
+        data[3] = 50;
+        data[4] = 100;
+        data['name'] = "Anowar";
+        data['age'] = 22;
+        document.write(data[4]);
+
+    Array in Javascript Type-2:
+        var data = Array();
+        data = { 0:50, 1:100, 2:500, 'name': "Anowar" }
+        document.write( data[1]);
+
+    Array in Javascript Type-3 ( Final Standard to Follow ):
+        var data = [ 10, 20, 30, 50, 100, "Anowar", "Mohammadpur" ];
+        document.write(data[6]);
+
+
+
+
+JSON ARRAY DATA:
+
+    var employeeData = [
+            {
+                'first_name'        :   'Azhar',
+                'last_name'         :   'Anowar',
+                'email_address'     :   'contact@azharanowar.com',
+                'phone_number'      :   '01875967162',
+                'address'           :   'Mohammadpur, Dhaka, Bangladesh.'
+            },
+            {
+                'first_name'        :   'Fozle',
+                'last_name'         :   'Arafat',
+                'email_address'     :   'contact@fozlearafat.com',
+                'phone_number'      :   '01801010101',
+                'address'           :   'Mizan Road, Feni, Bangladesh.'
+            }
+        ];
+
+
+
+
+FUNCTION:
+
+
+    function functionName() {       // Function definition
+        // Function body...
+    }
+    functionName();     // Function calling
+
+
+    function testFunction() {
+        document.write("Hello Test Function!");
+    }
+
+    testFunction();
+
+
+
+
+    Dynamic Function with Parameters:
+
+        function functionName( parameter1, parameter2, ... ) {
+            // Function body...
+        }
+
+        functionName( parameter1_value, parameter2_value, ... );
+
+
+        function dynamicFunction( x, y ) {
+            document.write( x + y );
+        }
+
+        dynamicFunction( 20, 30 );
+
+
+
+

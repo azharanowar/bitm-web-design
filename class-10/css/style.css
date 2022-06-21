@@ -1,0 +1,124 @@
+* { box-sizing: border-box; }
+body { margin: 0px; padding: 0px; }
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[ class *= 'col-'] {
+    float: left;
+    border: 1px solid gray;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.row:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+
+.div-one {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 150px;
+
+    /*transform: rotate( 0deg );*/
+    /*transform: rotateX( 0deg );*/
+    /*transform: rotateY( 0deg );*/
+    /*transform: rotate(0deg) scale(1);*/
+
+    transform: skewX(30deg);
+    transition: 600ms;
+
+}
+
+/*.div-one:hover {*/
+/*    transform: rotate( 0deg );*/
+/*    transform: rotateX( 0deg );*/
+/*    transform: rotateY( 0deg );*/
+
+/*    transform: scale( 1.5 );*/
+/*    transform: scale( .5 );*/
+/*    transform: scaleX( 1.5 );*/
+/*    transform: scaleY( -1.5 );*/
+
+/*    transform: rotate(0deg) scale(1);*/
+/*}*/
+
+
+.div-one {
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+    animation: demo3;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+/*@keyframes background_change {*/
+/*    0% { background-color: red; }*/
+/*    25% { background-color: yellow; }*/
+/*    50% { background-color: deeppink; }*/
+/*    75% { background-color: tomato; }*/
+/*    100% { background-color: orange; }*/
+/*}*/
+
+/*@keyframes demo1 {*/
+/*    0% { width: 300px; }*/
+/*    50% { width: 500px; }*/
+/*    100% { width: 300px; }*/
+
+/*}*/
+
+/*@keyframes demo2 {*/
+/*    0% { background-color: tomato; width: 300px; height: 200px; }*/
+/*    25% { background-color: red; width: 1200px; height: 200px; }*/
+/*    50% { background-color: yellow; width: 300px; height: 200px; }*/
+/*    75% { background-color: orange; width: 300px; height: 1200px; }*/
+/*    100% { background-color: tomato; width: 300px; height: 200px; }*/
+
+/*}*/
+
+@keyframes demo3 {
+    0% { background-color: tomato; position: absolute; left: 0%; }
+    5% { background-color: red; position: absolute; left: 10%; }
+    10% { background-color: orangered; position: absolute; left: 20%; }
+    15% { background-color: orange; position: absolute; left: 30%; }
+    20% { background-color: yellow; position: absolute; left: 40%; }
+    25% { background-color: blue; position: absolute; left: 50%; }
+    30% { background-color: blueviolet; position: absolute; left: 60%; }
+    35% { background-color: green; position: absolute; left: 70%; }
+    40% { background-color: darkgreen; position: absolute; left: 80%; }
+    45% { background-color: greenyellow; position: absolute; left: 90%; }
+    50% { background-color: red; position: absolute; left: 100%; }
+    51% { background-color: yellow; position: absolute; left: 0%; top: 0%; }
+    55% { background-color: white; position: absolute; top: 10%; }
+    60% { background-color: black; position: absolute; top: 20%; }
+    65% { background-color: brown; position: absolute; top: 30%; }
+    70% { background-color: cyan; position: absolute; top: 40%; }
+    75% { background-color: crimson; position: absolute; top: 50%; }
+    80% { background-color: gold; position: absolute; top: 60%; }
+    85% { background-color: fuchsia; position: absolute; top: 70%; }
+    90% { background-color: coral; position: absolute; top: 80%; }
+    95% { background-color: darkslategrey; position: absolute; top: 90%; }
+    100% { background-color: grey; position: absolute; top: 100%; }
+
+}

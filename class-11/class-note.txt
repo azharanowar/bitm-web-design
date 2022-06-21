@@ -1,0 +1,28 @@
+CSS Property Display None:
+display: none;
+
+CSS Property Display Block:
+display: block;
+
+
+CSS Property Box Shadow:
+box-shadow: right bottom blur color;
+box-shadow: 20px 20px 20px red;
+
+For Left and Top Shadow:
+box-shadow: -20px -20px 20px red;
+
+For Every Side Shadow:
+box-shadow: 0px 0px blur spending_size red;
+box-shadow: 0px 0px 100 10px red;
+box-shadow: 0px 0px 100 -30px red;
+
+
+CSS Property Text Shadow
+
+CSS Background Image:
+background-image: url("../images/1.jpg");
+
+Background Size:
+background-size: cover;
+background-size: 100% 100%;

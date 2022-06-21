@@ -1,0 +1,8 @@
+Diffarence Between Html and CSS Position,
+CSS Postision,
+CSS Position: static, absolute, relative, fixed, static.
+
+NB: Without position property, top, right, bottom, left will not work.
+
+Relative - The element is positioned relative to its normal position. When position is relative it's mean's the position is dependent itself.
+Absolute - The element is positioned absolutely to its first positioned parent. When position is absolute it mean's the position is dependent it's parent position.

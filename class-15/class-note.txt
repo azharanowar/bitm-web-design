@@ -1,0 +1,51 @@
+Variable:
+
+Variable Rules:
+
+    * Variable 3 Major Rules ( If we break one of these rules, it will not be a variable ):
+        1. Variable should be start with var sign.                  Example: var name;
+        2. Variable name only can use a-z, A-Z, 0-9, _, $           Example: name, age, class3, first_name, lastName etc.
+        3. No number at first.                                      Example: ( var 9class ) It will not be a variable.
+
+    * Variable 3 Standard Rules ( If we break these rules, the variable will work. but it will not follow the standard ):
+
+        1. Variable name will always be small letter.               Example: ( var NAME ) This will be a variable but still it didn't follow standard. we could make it like: var name.
+        2. Variable name should be meaning full.                    Example: var name = 20; This variable didn't follow standard, because name can't be 20, is it was age = 20 then it would be okay.
+        3. Variable name should be readable.                        Example: var firstclassname This will be a variable but not readable, if it would first_class_name or firstCLassName then it would follow standard.
+
+
+For multiple spacing in a sting:
+    &nbsp
+    Example: document.write("Anowar" + "&nbsp&nbsp&nbsp&nbsp&nbsp" + "Hosen");
+
+
+Javascript Operator:
+
+    * Arithmetic Operator
+        * Binary    ( +, -, *, /, % )
+        * Unary     ( ++, --, - )
+    * Assignment Operator   ( =, +=, -=, *=, /=, %= )
+    * Conditional Operator  ( >, >=, <, <=, ==, !=, ===, !== )
+    * Logical Operator      ( &&, ||, ! )
+
+
+For a statement/instruction we will have 5 things in every programming language:
+    1. Syntax
+    2. Values
+    3. Operators
+    4. Expressions ( Expression will have only operator and value. No Syntax, Comments )
+    5. Comments
+
+
+Statement Types:
+    1. Single Line Statement.
+    2. Conditional Statement.
+        * IF
+        * IF ELSE
+        * IF ELSE IF
+        * SWITCH
+    3. Repeated Statement.
+        * FOR
+        * WHITE
+        * DO WHILE
+        * FOR IN    ( for in work with array )

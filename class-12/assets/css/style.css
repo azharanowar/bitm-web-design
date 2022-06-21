@@ -1,0 +1,324 @@
+* { box-sizing: border-box; }
+body { margin: 0px; padding: 0px; }
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[ class *= 'col-' ] {
+    float: left;
+    /*border: 1px solid gray;*/
+}
+
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.row:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.header-top {
+    height: 40px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.main-header { height: 200px; }
+.menu { height: 50px; }
+.content { margin-top: 50px }
+.big-footer { height: 250px; }
+.footer { height: 50px; background-color: black; color: white; position: relative; }
+
+
+.slider {
+    height: 400px;
+    box-shadow: 15px 15px 25px #bababa;
+    animation: slider_background_animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.logo-img {
+    background-size: cover;
+    width: 80%;
+    max-width: 90%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.title {
+    text-align: center;
+    color: #070707;
+    font-size: 30px;
+    font-family: 'Dapifer Semibold';
+    font-weight: 700;
+}
+
+.search-area {
+    text-align: center;
+}
+
+.search-field {
+    width: 40%;
+    height: 40px;
+    border: 2px solid #818181;
+    border-radius: 50px;
+    padding-left: 1.5%;
+    box-shadow: 3px 3px 12px #c0c0c0;
+    font-family: "Sanchez Regular";
+}
+
+.search-field:focus {
+    border: 2px solid red !important;
+    box-shadow: 4px 5px 12px #acacac;
+}
+
+.search-button {
+    width: 15%;
+    height: 40px;
+    margin-left: 5px;
+    background-color: #070707;
+    color: white;
+    border: 2px solid #070707;
+    border-radius: 50px;
+    box-shadow: 3px 3px 12px #c0c0c0;
+    font-family: 'Sanchez Regular';
+    font-weight: 500;
+
+
+}
+
+.header-top-ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.header-top-ul li {
+    float: left;
+    margin-right: 20px;
+    font-family: 'Sanchez Regular';
+    font-size: 15px;
+
+}
+
+.header-top-ul li a {
+    color: #F5BD06;
+    font-size: 14px;
+    font-family: 'Sanchez Regular';
+
+}
+
+.social-icons-ul {
+    list-style: none;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    margin-right: 40px;
+}
+
+.social-icons-ul a {
+    color: white;
+}
+
+.social-icons-ul li {
+    float: left;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-right: 8px;
+}
+.social-icons-ul li {
+    font-size: 15px;
+    transition: 300ms;
+}
+
+.social-icons-ul li:hover {
+    font-size: 20px;
+    margin-top: -7px;
+}
+
+
+.menu-ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-li {
+    float: left;
+    width: 20%;
+}
+
+.menu-li a {
+    display: block;
+    height: 50px;
+    padding-top: 16px;
+    background-color: black;
+    border: 1px solid gray;
+    color: white;
+    font-family: 'Sanchez Regular';
+    text-align: center;
+    text-decoration: none;
+    transition: all 600ms;
+}
+
+.menu-li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu-dropdown-li {
+    display: none;
+}
+
+.menu-li:hover .menu-dropdown-li {
+    display: block;
+    position: relative;
+}
+
+
+.blog-post {
+    padding: 10px 15px 30px 15px;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    width: 30.33%;
+    box-shadow: 5px 5px 15px rgba(206,206,206,0.5);
+    height: 640px;
+    position: relative;
+}
+.blog-post:hover {
+    box-shadow: 10px 10px 20px rgba(245,189,6,0.3);
+}
+
+.blog-img {
+    width: 100%;
+    transition: 400ms;
+}
+
+.blog-img:hover {
+    transform: scale(1.1);
+
+}
+
+.blog-title {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Dapifer Semibold';
+}
+
+.blog-content {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Sanchez Regular';
+    color: #383838;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.blog-learn-more {
+    width: 45%;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.blog-learn-more a {
+    display: block;
+    height: 45px;
+    background-color: #F5BD06;
+    color: black;
+    border-radius: 5px;
+    padding-top: 12px;
+    text-decoration: none;
+    font-family: 'Sanchez Regular';
+    text-align: center;
+    transition: 400ms;
+}
+
+.blog-learn-more a:hover {
+    background-color: black;
+    color: #F5BD06;
+}
+
+.footer p {
+    padding-left: 30px;
+    padding-top: 5px;
+    font-family: 'Sanchez Regular';
+    font-size: 14px;
+
+}
+
+.footer .social-icons-ul {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Dapifer Black';
+    src: url("../fonts/Dapifer-Black.woff");
+}
+
+@font-face {
+    font-family: 'Dapifer Bold';
+    src: url("../fonts/Dapifer-Bold.woff");
+}
+
+@font-face {
+    font-family: 'Dapifer Medium';
+    src: url("../fonts/Dapifer-Medium.woff");
+}
+
+@font-face {
+    font-family: 'Dapifer Semibold';
+    src: url("../fonts/Dapifer-Semibold.woff");
+}
+
+
+@font-face {
+    font-family: 'Sanchez Regular';
+    src: url("../fonts/Sanchez-Regular.woff");
+}
+
+@font-face {
+    font-family: 'Sanchez Italic';
+    src: url("../fonts/Sanchez-italic.woff");
+}
+
+
+@keyframes slider_background_animation {
+    0% { background-image: url("../images/1.jpg"); background-size: cover; }
+    50% { background-image: url("../images/2.jpg"); background-size: cover; }
+    100% { background-image: url("../images/3.jpg"); background-size: cover; }
+}
+
+
+
+
+@media screen and ( max-width: 480px ) {
+    [ class *= 'col-' ] {
+        width: 100%;
+    }
+}
