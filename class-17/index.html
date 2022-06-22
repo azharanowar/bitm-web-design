@@ -12,24 +12,43 @@
     <table>
         <tr>
             <td>First Number: </td>
-            <td><input type="number" id="firstNumber"/></td>
-        </tr>
-        <tr>
-            <td>Second Number: </td>
-            <td><input type="number" id="secondNumber"/></td>
-        </tr>
-        <tr>
-            <td>Result: </td>
-            <td><input type="number" id="result" disabled/></td>
+            <td>
+                <input type="number" id="firstNumber"/>
+            </td>
         </tr>
         <tr>
             <td></td>
+            <td>
+                <input type="text" id="operator" value="+" disabled hidden/>
+            </td>
+        </tr>
+        <tr>
+            <td>Second Number: </td>
+            <td>
+                <input type="number" id="secondNumber"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Your Choice</td>
             <td>
                 <input type="button" id="addition" value="+"/>
                 <input type="button" id="subtraction" value="-"/>
                 <input type="button" id="multiplication" value="*"/>
                 <input type="button" id="division" value="/"/>
                 <input type="button" id="reminder" value="%"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Result: </td>
+            <td>
+                <input type="number" id="result" disabled/>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" id="equalBtn" value="="/>
+                <input type="button" id="clear" value="clear"/>
             </td>
         </tr>
     </table>
