@@ -1,0 +1,23 @@
+.div-one {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    margin: 20px 0;
+    transition: 800ms;
+}
+
+.div-one-background-red {
+    background-color: red;
+}
+
+.div-one-background-green {
+    background-color: green;
+}
+
+.div-one-background-blue {
+    background-color: blue;
+}
+
+.div-one-background-orange {
+    background-color: orange;
+}
