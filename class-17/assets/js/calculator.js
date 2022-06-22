@@ -151,6 +151,15 @@ reminder.onclick = function () {
 }
 
 
+var clearBtn = document.getElementById('clear');
+clearBtn.onclick = function () {
+    document.getElementById('firstNumber').value = '';
+    document.getElementById('secondNumber').value = '';
+    document.getElementById('operator').value = '';
+    document.getElementById('result').value = '';
+}
+
+
 
 
 
