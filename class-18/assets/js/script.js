@@ -35,6 +35,9 @@
 
 
 
+
+
+
 // var defaultBtn = document.getElementById('defaultBtn');
 // defaultBtn.onclick = function () {
 //     var divOne = document.getElementById('divOne');
@@ -66,35 +69,40 @@
 // }
 
 
-var homeBtn = document.getElementById('homeBtn');
-homeBtn.onclick = function () {
-    document.getElementById('heading').innerHTML = "This is heading one from home.";
-    document.getElementById('paragraph').innerHTML = "Home! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
-}
-
-var aboutBtn = document.getElementById('aboutBtn');
-aboutBtn.onclick = function () {
-    document.getElementById('heading').innerHTML = "This is heading two from about.";
-    document.getElementById('paragraph').innerHTML = "About! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
-}
-
-var contactBtn = document.getElementById('contactBtn');
-contactBtn.onclick = function () {
-    document.getElementById('heading').innerHTML = "This is heading three from contact.";
-    document.getElementById('paragraph').innerHTML = "Contact! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
-}
 
 
 
 
 
+// var homeBtn = document.getElementById('homeBtn');
+// homeBtn.onclick = function () {
+//     document.getElementById('heading').innerHTML = "This is heading one from home.";
+//     document.getElementById('paragraph').innerHTML = "Home! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
+// }
+//
+// var aboutBtn = document.getElementById('aboutBtn');
+// aboutBtn.onclick = function () {
+//     document.getElementById('heading').innerHTML = "This is heading two from about.";
+//     document.getElementById('paragraph').innerHTML = "About! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
+// }
+//
+// var contactBtn = document.getElementById('contactBtn');
+// contactBtn.onclick = function () {
+//     document.getElementById('heading').innerHTML = "This is heading three from contact.";
+//     document.getElementById('paragraph').innerHTML = "Contact! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
+// }
 
-var submitBtn = document.getElementById('submitBtn');
+
+
+
+
+
+let submitBtn = document.getElementById('submitBtn');
 submitBtn.onclick = function () {
-    var startingNumber = Number( document.getElementById('startingNumber').value );
-    var endingNumber = Number( document.getElementById('endingNumber').value );
+    let startingNumber = Number( document.getElementById('startingNumber').value );
+    let endingNumber = Number( document.getElementById('endingNumber').value );
 
-    var result = '';
+    let result = '';
     for ( startingNumber; startingNumber<= endingNumber; startingNumber++) {
         result += startingNumber + ', ';
     }
