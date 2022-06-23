@@ -1,3 +1,23 @@
+// var homeBtn = document.getElementById('homeBtn');
+// homeBtn.onclick = function () {
+//     document.getElementById('heading').innerHTML = "This is heading one from home.";
+//     document.getElementById('paragraph').innerHTML = "Home! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
+// }
+//
+// var aboutBtn = document.getElementById('aboutBtn');
+// aboutBtn.onclick = function () {
+//     document.getElementById('heading').innerHTML = "This is heading two from about.";
+//     document.getElementById('paragraph').innerHTML = "About! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
+// }
+//
+// var contactBtn = document.getElementById('contactBtn');
+// contactBtn.onclick = function () {
+//     document.getElementById('heading').innerHTML = "This is heading three from contact.";
+//     document.getElementById('paragraph').innerHTML = "Contact! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
+// }
+
+
+
 // var defaultBtn = document.getElementById('defaultBtn');
 // defaultBtn.onclick = function () {
 //     var divOne = document.getElementById('divOne');
@@ -66,30 +86,6 @@
 // orangeBtn.onclick = function () {
 //     var divOne = document.getElementById('divOne');
 //     divOne.className = 'div-one div-one-background-orange';
-// }
-
-
-
-
-
-
-
-// var homeBtn = document.getElementById('homeBtn');
-// homeBtn.onclick = function () {
-//     document.getElementById('heading').innerHTML = "This is heading one from home.";
-//     document.getElementById('paragraph').innerHTML = "Home! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
-// }
-//
-// var aboutBtn = document.getElementById('aboutBtn');
-// aboutBtn.onclick = function () {
-//     document.getElementById('heading').innerHTML = "This is heading two from about.";
-//     document.getElementById('paragraph').innerHTML = "About! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
-// }
-//
-// var contactBtn = document.getElementById('contactBtn');
-// contactBtn.onclick = function () {
-//     document.getElementById('heading').innerHTML = "This is heading three from contact.";
-//     document.getElementById('paragraph').innerHTML = "Contact! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
 // }
 
 
