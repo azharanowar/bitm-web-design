@@ -16,18 +16,16 @@ sliderImagesList = document.getElementById('sliderThumbnailList').getElementsByT
 
 let sliderImagesLink = [];
 for ( let i = 0; i < sliderImagesList.length; i++ ) {
-    sliderImagesLink[i] = sliderImagesList[i].src;
+    sliderImagesLink[i] = sliderImagesList[i].getAttribute('src');
 }
 
 
 let i =0;
-setInterval( demo, 2500);
+setInterval( slider, 2500);
 
-function demo() {
+function slider() {
     // console.log(sliderImagesLink[i]);
-    document.getElementById('mainImg').src = sliderImagesLink[i];
+    document.getElementById('mainImg').setAttribute('src', sliderImagesLink[i]);
     i++;
-    if ( i >= sliderImagesLink.length ) {
-        i = 0;
-    }
+    if ( i >= sliderImagesLink.length ) i = 0;
 }
