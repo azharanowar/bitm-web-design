@@ -1,3 +1,45 @@
+let imgOne = document.getElementById('imgOne');
+imgOne.onclick = function () {
+    document.getElementById('mainImg').src = imgOne.src;
+}
+
+let imgTwo = document.getElementById('imgTwo');
+imgTwo.onclick = function () {
+    document.getElementById('mainImg').src = imgTwo.src;
+}
+
+let imgThree = document.getElementById('imgThree');
+imgThree.onclick = function () {
+    document.getElementById('mainImg').src = imgThree.src;
+}
+
+let imgFour = document.getElementById('imgFour');
+imgFour.onclick = function () {
+    document.getElementById('mainImg').src = imgFour.src;
+}
+
+let imgFive = document.getElementById('imgFive');
+imgFive.onclick = function () {
+    document.getElementById('mainImg').src = imgFive.src;
+}
+
+let imgSix = document.getElementById('imgSix');
+imgSix.onclick = function () {
+    document.getElementById('mainImg').src = imgSix.src;
+}
+
+let imgSeven = document.getElementById('imgSeven');
+imgSeven.onclick = function () {
+    document.getElementById('mainImg').src = imgSeven.src;
+}
+
+let imgEight = document.getElementById('imgEight');
+imgEight.onclick = function () {
+    document.getElementById('mainImg').src = imgEight.src;
+}
+
+
+
 // var homeBtn = document.getElementById('homeBtn');
 // homeBtn.onclick = function () {
 //     document.getElementById('heading').innerHTML = "This is heading one from home.";
@@ -15,6 +57,7 @@
 //     document.getElementById('heading').innerHTML = "This is heading three from contact.";
 //     document.getElementById('paragraph').innerHTML = "Contact! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa est inventore iste laudantium minima sapiente sequi velit voluptas! Laboriosam, sed!";
 // }
+
 
 
 
