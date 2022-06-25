@@ -1,0 +1,21 @@
+.input-filed {
+    height: 35px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+
+#submitBtn {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    transition: 400ms;
+}
+
+#submitBtn:hover {
+    background-color: white;
+    color: black;
+}
