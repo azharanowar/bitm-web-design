@@ -33,7 +33,7 @@
 .menu-height { height: 100px; }
 
 .nav-menu-height { height: 100px; position: relative; }
-.hero-section-height { height: 650px; }
+.hero-section-height { height: 650px; position: relative; }
 .service-height { height: 500px; }
 
 .logo-img {
@@ -44,7 +44,7 @@
 
 .nav-menu ul {
     list-style: none;
-    margin-top: 38px;
+    margin-top: 40px;
     position: absolute;
     right: 0;
 }
@@ -52,13 +52,16 @@
 .nav-menu ul li {
     float: left;
     margin-right: 30px;
-    width: 50px;
+    width: 70px;
 }
 
 .nav-menu ul li a {
+    text-decoration: none;
     height: 30px ;
     color: #616161;
-    text-decoration: none;
+    font-family: Poppins;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .nav-menu ul li a:hover {
@@ -89,4 +92,53 @@
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
+}
+
+.hero-content {
+    padding: 200px 20px 200px 60px;
+}
+
+.our-services {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    color: #292929;
+}
+.hero-title {
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: Poppins;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: lighter;
+    color: #292929;
+}
+
+.service-image {
+    background-color: #070707;
+    margin: 80px 10px;
+    float: left;
+}
+
+.service-content {
+    float: left;
+}
+
+.service-image img {
+    width: 150%;
+    margin-top: 17%;
+    margin-left: 60px;
+}
+
+.border-style {
+    height: 10px;
+    width: 60px;
+    background-color: black;
 }
