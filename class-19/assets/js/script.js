@@ -20,12 +20,70 @@ for ( let i = 0; i < sliderImagesList.length; i++ ) {
 }
 
 
-let i =0;
+let index = 0;
+
+
+let imgOne = document.getElementById('imgOne');
+imgOne.onclick = function () {
+    index = 0;
+    slider();
+}
+
+let imgTwo = document.getElementById('imgTwo');
+imgTwo.onclick = function () {
+    index = 1;
+    slider()
+}
+
+
+let imgThree = document.getElementById('imgThree');
+imgThree.onclick = function () {
+    index = 2;
+    slider()
+}
+
+let imgFour = document.getElementById('imgFour');
+imgFour.onclick = function () {
+    index = 3;
+    slider()
+}
+
+let imgFive = document.getElementById('imgFive');
+imgFive.onclick = function () {
+    index = 4;
+    slider()
+}
+
+let imgSix = document.getElementById('imgSix');
+imgSix.onclick = function () {
+    index = 5;
+    slider()
+}
+
+let imgSeven = document.getElementById('imgSeven');
+imgSeven.onclick = function () {
+    index = 6;
+    slider();
+}
+
+let imgEight = document.getElementById('imgEight');
+imgEight.onclick = function () {
+    index = 7;
+    slider();
+}
+
+
+
+
+
 setInterval( slider, 2500);
 
 function slider() {
     // console.log(sliderImagesLink[i]);
-    document.getElementById('mainImg').setAttribute('src', sliderImagesLink[i]);
-    i++;
-    if ( i >= sliderImagesLink.length ) i = 0;
+    let sliderImgLink = sliderImagesLink[index];
+    document.getElementById('mainImg').setAttribute('src', sliderImgLink);
+    index++;
+    if ( index >= sliderImagesLink.length ) {
+        index = 0;
+    }
 }
