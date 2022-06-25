@@ -1,14 +1,17 @@
-// function myFunction() {
-//     let dateTime = new Date();
-//     let hours = dateTime.getHours();
-//     let minutes = dateTime.getMinutes();
-//     let seconds = dateTime.getSeconds();
-//
-//
-//     document.getElementById('watch').innerHTML = hours + ':' + minutes + ':' + seconds;
-// }
-//
-// setInterval(myFunction, 1000);
+function myFunction() {
+    let dateTime = new Date();
+    let hours = dateTime.getHours();
+    let minutes = dateTime.getMinutes();
+    let seconds = dateTime.getSeconds();
+
+
+    document.getElementById('watch').innerHTML = hours + ':' + minutes + ':' + seconds;
+}
+
+setInterval(myFunction, 1000);
+
+
+
 
 
 
@@ -87,3 +90,14 @@ function slider() {
         index = 0;
     }
 }
+
+
+
+
+// Start using jQuery:
+
+$('#heading').click( function () {
+    $('#heading').css({
+        'color' : 'red'
+    });
+});
