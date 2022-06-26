@@ -1,0 +1,9 @@
+CSS Overflow:
+
+overflow: hidden    (For hiding overflow)
+
+overflow: auto      (Automatically set overflow)
+
+overflow-x: scroll  (Overflow for X direction)
+
+overflow-y: scroll  (Overflow for y direction)
