@@ -43,5 +43,16 @@ $( '#contentDiv' ).scroll( function () {
 
 
 // Html Element Position Check:
-let overflowResultPosition = $('.output-table').position();
-console.log(overflowResultPosition);
+// let overflowResultPosition = $('.output-table').position();
+// console.log(overflowResultPosition);
+
+$(window).scroll( function () {
+    let windowScrollPosition = $(window).scrollTop();
+    let fixedMenuBoxPosition = $( '#fixedMenuBox' ).position();
+    if (windowScrollPosition >= fixedMenuBoxPosition.top ) {
+        $( '#fixedMenuBox' ).css( {
+            'position' : 'fixed',
+            'top'      : 0,
+        } );
+    }
+});

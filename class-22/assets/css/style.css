@@ -33,3 +33,25 @@
     border: 1px solid red;
     overflow-y: scroll;
 }
+
+
+
+
+
+.fixed-menu-box {
+    height: 200px;
+    width: 235px;
+    background-color: orange;
+    color: white;
+}
+
+.menu-box h3 {
+    text-align: center;
+}
+
+.fixed-menu-one {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
