@@ -89,3 +89,27 @@ function confirmPasswordCheck() {
         $('#confirmPasswordMessage').text('Please make sure confirm password is match.').css({ 'color' : 'red' });
     }
 }
+
+
+$('#showHidePassword').click( function () {
+    let passwordType = $('#password').attr('type');
+    if ( passwordType === 'password' ) {
+        $('#password').attr('type', 'text');
+    } else {
+        $('#password').attr('type', 'password');
+    }
+});
+
+
+$('input[name = "gender"]').click( function () {
+    let genderValue = $('input[name = "gender"]:checked').val();
+    genderCheck(genderValue);
+});
+
+function genderCheck(genderValue) {
+    if ( genderValue === 'male' || genderValue === 'female' || genderValue === 'others' ) {
+        $('#genderInfoMessage').text(' ');
+    } else {
+        $('#genderInfoMessage').text('You most select gender info here.').css('color', 'red');
+    }
+}

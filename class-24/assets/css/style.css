@@ -1,4 +1,4 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Poppins; }
 
 .col-1 { width: 8.33%; }
 .col-2 { width: 16.66%; }
@@ -93,6 +93,8 @@
     border: 2px solid gray;
     margin: 8px 0;
     padding-left: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
 }
 
 .submit-button {
@@ -103,6 +105,8 @@
     margin-top: 10px;
     border-radius: 50px;
     transition: 500ms;
+    font-family: 'Poppins';
+    font-size: 17px;
 }
 
 .submit-button:hover {
