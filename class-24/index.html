@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<section class="header-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 header-height"></div>
+            <div class="col-9 header-height"></div>
+        </div>
+    </div>
+</section>
+<section class="menu-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 menu-height">
+                <nav class="nav-menu" id="navMenu">
+                    <ul class="nav-menu-ul" id="navMenuUl">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-9 content-height">
+
+                <form class="user-form" id="userForm">
+                    <table>
+                        <tr>
+                            <td>First Name: </td>
+                            <td>
+                                <input type="text" class="input-filed" id="firstName" placeholder="Enter your first name here..."/>
+                                <span id="firstNameMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Last Name: </td>
+                            <td>
+                                <input type="text" class="input-filed" id="lastName" placeholder="Enter your last name here..."/>
+                                <span id="lastNameMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email Address: </td>
+                            <td>
+                                <input type="email" class="input-filed" id="emailAddress" placeholder="Enter your email address here..."/>
+                                <span id="emailAddressMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td>
+                                <input type="password" class="input-filed" id="password" placeholder="Enter your password here..."/>
+                                <input type="checkbox" class="" id="showHidePassword"/> Show Password
+                                <span id="passwordMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Confirm Password: </td>
+                            <td>
+                                <input type="password" class="input-filed" id="confirmPassword"  placeholder="Confirm your password..."/>
+                                <span id="confirmPasswordMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gender Info: </td>
+                            <td>
+                                <input type="radio" class="" name="gender" value="male" checked/> Male
+                                <input type="radio" class="" name="gender" value="female"/> Female
+                                <input type="radio" class="" name="gender" value="others"/> Others
+                                <span id="genderInfoMessage"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" class="submit-button" id="submitBtn" value="SUBMIT"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+            </div>
+            <div class="col-3 content-height"></div>
+        </div>
+    </div>
+</section>
+<section class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 footer-height"></div>
+            <div class="col-6 footer-height"></div>
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/js/jquery-3.6.0.js" rel="script"></script>
+<script src="assets/js/script.js" rel="script" type="text/javascript"></script>
+</body>
+</html>
