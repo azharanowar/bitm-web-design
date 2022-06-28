@@ -1,3 +1,10 @@
 .header-height { height: 120px; border: 1px solid; }
 .menu-height { height: 50px; border: 1px solid; }
 .content-height { height: 650px; border: 1px solid; }
+
+
+
+.logo-img {
+    height: 55px;
+    width: 55px;
+}

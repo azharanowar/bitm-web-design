@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet"/>
@@ -56,7 +57,6 @@
 <!--</div>-->
 
 
-
 <!--<div class="container">-->
 <!--    <div class="row">-->
 <!--        <div class="col-12">-->
@@ -73,9 +73,6 @@
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
-
-
-
 
 
 <!--Bootstrap Button Class Use Fields-->
@@ -114,7 +111,55 @@
 <!--<button type="button" class="btn btn-outline-warning">Button</button>-->
 
 
+<section class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="assets/images/logo.png" class="logo-img" alt="Logo"/>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-7">
+                        <nav class="nav navbar navbar-expand-md float-right" id="mainMenu">
+                            <button type="button" class="btn btn-primary navbar-toggler" data-target="#mainMenu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                                        <ul class="dropdown dropdown-menu bg-dark text-center">
+                                            <li class="nav-item"><a href="#" class="nav-link">Services 1</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link">Services 2</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link">Services 3</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link">Services 4</a></li>
+                                            <li class="nav-item"><a href="#" class="nav-link">Services 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
 
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-5">
+                        <form action="#" class="form-inline float-right mt-2" method="POST" id="searchForm">
+                            <input type="search" class="search-field form-control mr-2" id="searchInput"
+                                   placeholder="Search anything..."/>
+                            <input type="button" class="btn btn-outline-info" id="searchBtn" value="SEARCH"/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/js/jquery-3.6.0.js" rel="script"></script>
 <script src="assets/js/bootstrap.js" rel="script"></script>
 </body>
 </html>
