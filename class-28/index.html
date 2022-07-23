@@ -10,41 +10,164 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-success" data-target="#myModal" data-toggle="modal">Click ME</button>
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <span class="badge badge-primary">Badge Primary</span>
+                <span class="badge badge-secondary">Badge Secondary</span>
+                <span class="badge badge-info">Badge Info</span>
+                <span class="badge badge-warning">Badge Warning</span>
+                <span class="badge badge-danger">Badge Danger</span>
+                <span class="badge badge-dark">Badge Dark</span>
+                <span class="badge badge-success">Badge Success</span>
+                <span class="badge badge-light">Badge Light</span>
+
+                <br>
+
+                <div>
+                    <span class="badge badge-warning badge-pill badge">Badge With Rounded</span>
+                    <span class="badge badge-danger badge-pill badge">New</span>
+                </div>
+
+                <br>
+
+                <div>
+                    <button type="button" class="btn btn-info">Message
+                        <span class="badge badge-light">13</span>
+                    </button>
+                </div>
+
+                <br>
+
+                <div>
+                    <h1>This is a heading. <span class="badge badge-secondary">New</span></h1>
+                    <h2>This is a heading. <span class="badge badge-secondary">New</span></h2>
+                    <h3>This is a heading. <span class="badge badge-secondary">New</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <a class="card-link" href="#cardOne" data-toggle="collapse">Content One</a>
+                <div class="accordion" id="myAccordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#cardOne" data-toggle="collapse">Content One</a>
+                        </div>
+                        <div id="cardOne" class="collapse" data-parent="#myAccordion">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#">List One</a></li>
+                                <li class="list-group-item"><a href="#">List Two</a></li>
+                                <li class="list-group-item"><a href="#">List Three</a></li>
+                                <li class="list-group-item"><a href="#">List Four</a></li>
+                                <li class="list-group-item"><a href="#">List Five</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="cardOne" class="collapse">
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#cardTwo" data-toggle="collapse">Content Two</a>
+                        </div>
+                        <div id="cardTwo" class="collapse" data-parent="#myAccordion">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#">List One</a></li>
+                                <li class="list-group-item"><a href="#">List Two</a></li>
+                                <li class="list-group-item"><a href="#">List Three</a></li>
+                                <li class="list-group-item"><a href="#">List Four</a></li>
+                                <li class="list-group-item"><a href="#">List Five</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#cardThree" data-toggle="collapse">Content Three</a>
+                        </div>
+                        <div id="cardThree" class="collapse" data-parent="#myAccordion">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#">List One</a></li>
+                                <li class="list-group-item"><a href="#">List Two</a></li>
+                                <li class="list-group-item"><a href="#">List Three</a></li>
+                                <li class="list-group-item"><a href="#">List Four</a></li>
+                                <li class="list-group-item"><a href="#">List Five</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <a class="card-link" href="#cardTwo" data-toggle="collapse">Content Two</a>
+            </div>
+            <div class="col-md-8">
+                <div class="accordion" id="newAccordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#newCardOne" data-toggle="collapse">Content One</a>
+                        </div>
+                        <div id="newCardOne" class="collapse" data-parent="#newAccordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                            </div>
+                        </div>
                     </div>
-                    <div id="cardTwo" class="collapse">
-                        <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#newCardTwo" data-toggle="collapse">Content Two</a>
+                        </div>
+                        <div id="newCardTwo" class="collapse" data-parent="#newAccordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" href="#newCardThree" data-toggle="collapse">Content Three</a>
+                        </div>
+                        <div id="newCardThree" class="collapse" data-parent="#newAccordion">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <a class="card-link" href="#cardThree" data-toggle="collapse">Content Three</a>
-                    </div>
-                    <div id="cardThree" class="collapse">
+            </div>
+        </div>
+    </div>
+
+
+<!--    Bootstrap Modal / Popup Code-->
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title text-center">This is modal title.</h2>
+                    <span><button type="button" class="close" data-dismiss="modal">x</button></span>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
                         <div class="card-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi eius exercitationem explicabo fugiat id inventore iure nobis ratione sequi?</p>
+                            <h3 class="text-center">This is modal body.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda consequatur corporis deleniti doloremque doloribus est excepturi expedita inventore itaque laboriosam nam necessitatibus nobis odio pariatur perspiciatis porro quam quia quibusdam quidem sunt, tempore velit vitae voluptate voluptates. Beatae, cum earum et ipsam molestiae obcaecati officiis quas qui quo quod.</p>
                         </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-secondary">This is modal footer</p>
                 </div>
             </div>
         </div>
